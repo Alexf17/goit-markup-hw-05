@@ -207,12 +207,16 @@ position: relative;
     border-radius: 4px;
     padding: 6px 22px;
 
-    transition: backgraund-color var(--timing-duration),
+    transition: background-color var(--timing-duration),
     color var(--timing-duration), box-shadow var(--timing-duration);
 }
 
 .button.blue {
-    color: var(--primery-waite-color);
+    width: 200px;
+    height: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: var(--header-color);
     background-color: var(--accent-color);
     cursor: pointer;
 }
